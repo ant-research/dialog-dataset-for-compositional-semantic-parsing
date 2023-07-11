@@ -1,7 +1,7 @@
 # Dialog dataset for compositional semantic parsing
 
 This repository contains the dialog dataset for evaluating compositional generalization of semantic parsing models, in the paper
-[Grammar-based Decoding for Improved Compositional Generalization in Semantic Parsing](http://arxiv.org/abs/xxxx).
+[Grammar-based Decoding for Improved Compositional Generalization in Semantic Parsing](https://aclanthology.org/2023.findings-acl.91).
 
 The dialog corpus has been converted into samples, where each sample represents a dialog turn, with the following information:
 - id
@@ -57,12 +57,16 @@ For each split, the exact random seeds (55 of them) used in the onmt baseline ex
 ## Citation
 
 ```bibtex
-@inproceedings{xxx,
-  author = {Jing Zheng and Jyh-Herng Chow and Zhongnan Shen and Peng Xu},
-  title = {Grammar-based Decoding for Improved Compositional Generalization in Semantic Parsing},
+@inproceedings{zheng-etal-2023-grammar,
+  title = "Grammar-based Decoding for Improved Compositional Generalization in Semantic Parsing",
+  author = "Jing Zheng and Jyh-Herng Chow and Zhongnan Shen and Peng Xu",
   booktitle = "Findings of the Association for Computational Linguistics: ACL 2023",
-  year = {2023},
-  html = https://arxiv.org/abs/xxxx},
+  month = jul,
+  year = "2023",
+  address = "Toronto, Canada",      
+  publisher = "Association for Computational Linguistics",
+  url = "https://aclanthology.org/2023.findings-acl.91",
+  pages = "1399--1418",
 }
 ```
 
